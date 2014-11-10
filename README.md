@@ -1,4 +1,4 @@
-homebrew-tail
+homebrew-tail![tail](https://cloud.githubusercontent.com/assets/291175/4981597/95647852-690a-11e4-99f6-9f6a15592ee6.png)
 =============
 
 Experimental homebrew formulas
