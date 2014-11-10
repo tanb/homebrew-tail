@@ -13,3 +13,4 @@ $ brew tap tanb/tail
 
 ## Casks
 - [SimPholders2](http://simpholders.com)
+- [SaveHollywood](http://s.sudre.free.fr/Software/SaveHollywood/about.html)
