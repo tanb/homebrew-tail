@@ -10,6 +10,10 @@ $ brew tap tanb/tail
 
 ## Formulas
 - [reminder-notifier](https://github.com/tanB/remind-notifier)
+- [cider](https://github.com/msanders/cider)
+- [rfc3987](https://github.com/dgerber/rfc3987)
+- [click](http://click.pocoo.org/)
+
 
 ## Casks
 - [SimPholders2](http://simpholders.com)
