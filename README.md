@@ -1,15 +1,20 @@
-homebrew-tail![tail](https://cloud.githubusercontent.com/assets/291175/4997132/713a32a4-6a0f-11e4-80e1-0c4d17dbf0e6.png)
+homebrew-tail![tail](https://cloud.githubusercontent.com/assets/291175/5014326/29fc70fe-6ad8-11e4-980d-a5ad0065be0b.png)
 =============
 
-Experimental homebrew formulas
-
 ## Usage
+- First of all, read [The Hitchhiker's Guide to the Galaxy](http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy).
+
+- And tap it.
 ```
 $ brew tap tanb/tail
 ```
 
 ## Formulas
 - [reminder-notifier](https://github.com/tanB/remind-notifier)
+- [cider](https://github.com/msanders/cider)
+- [rfc3987](https://github.com/dgerber/rfc3987)
+- [click](http://click.pocoo.org/)
+
 
 ## Casks
 - [SimPholders2](http://simpholders.com)
