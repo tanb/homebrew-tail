@@ -1,8 +1,8 @@
 class Hashlook < Cask
   homepage 'https://github.com/tanb/HashLook'
-  url 'https://github.com/tanb/HashLook/releases/download/0.1.0/HashLook.zip'
+  url 'https://github.com/tanb/HashLook-Preview/releases/download/0.1.0/HashLook-0.1.0.zip'
   version '0.1.0'
-  sha256 'bd8552b9b6c8b815b24ec5ec0fe65f5c633420836985401da63987dc07c30c7b'
+  sha256 '752f36862b441cda16fa7d438f1773c377940738b5e9b916da7eb3d7c915f040'
 
   depends_on :macos => :mavericks
 
