@@ -20,3 +20,4 @@ $ brew tap tanb/tail
 - [SimPholders2](http://simpholders.com)
 - [SaveHollywood](http://s.sudre.free.fr/Software/SaveHollywood/about.html)
 - [Deploymate](http://deploymateapp.com)
+- [HashLook](https://github.com/tanb/HashLook)
