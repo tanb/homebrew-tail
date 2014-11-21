@@ -1,10 +1,10 @@
 class Hashlook < Cask
-  homepage 'https://github.com/tanb/HashLook'
-  url 'https://github.com/tanb/HashLook-Preview/releases/download/1.0.0/HashLook-1.0.0.zip'
-  version '1.0.0'
-  sha256 '752f36862b441cda16fa7d438f1773c377940738b5e9b916da7eb3d7c915f040'
+  homepage 'https://github.com/tanb/HashLook-Preview'
+  url 'https://github.com/tanb/HashLook-Preview/releases/download/1.1.0/HashLook-1.1.0.zip'
+  version '1.1.0'
+  sha256 '8e9a2c5a4912322ef9f478213e43e42b06afad51b14df3e7064939cee4eae32d'
 
   depends_on :macos => :mavericks
 
-  app 'HashLook.app'
+  app 'HashLook(Preview).app'
 end
