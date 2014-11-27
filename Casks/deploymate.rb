@@ -4,7 +4,5 @@ cask :v1 => 'deploymate' do
   version '1.2.7'
   sha256 'f0f8aed76ab3dacb38ca1aead71708a3fa5c112e22115368e999a68d9efbb29c'
 
-  depends_on :macos => :lion # Requires Mac OS X 10.7 or later
-
   app 'Deploymate.app'
 end
