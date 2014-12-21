@@ -28,6 +28,14 @@ class Depottools < Formula
         end
   end
 
+  def caveats; <<-EOS.undent
+    Add the following lines to your ~/.bash_profile:
+      
+      export PYTHONPATH=$(brew --prefix)/Cellar/depottools/master/tools:$PYTHONPATH
+
+    EOS
+  end
+  
   def test
     %w[gclient presubmit_support.py trychange.py].each do |tool|
       system "#{bin}/#{tool} --version"
