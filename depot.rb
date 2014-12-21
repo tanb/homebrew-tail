@@ -1,13 +1,17 @@
-require "formula"
 # Credit to https://github.com/Homebrew/homebrew/pull/17675/files
+require 'formula'
 
-class Depot < Formula
-  homepage 'http://dev.chromium.org/developers/how-tos/install-depot-tools'
-  url 'https://chromium.googlesource.com/chromium/tools/depot_tools.git', :branch => 'master'
+class DepotTools < Formula
+  homepage 'http://dev.chromium.org/developers/how-tos/depottools'
+  url 'https://chromium.googlesource.com/chromium/tools/depot_tools.git',
+      :branch => 'master'
   version 'master'
 
   depends_on 'repo'
 
+  # We're linking these tools with auto-update disabled. It's bad enough that
+  # all we know is that we're at the HEAD of the master branch, since the
+  # Chromium team isn't nice enough to tag releases for us.
   def install
     dst = prefix/'tools'
     dst.mkpath unless dst.directory?
@@ -24,7 +28,7 @@ class Depot < Formula
         end
   end
 
-  test do
+  def test
     %w[gclient presubmit_support.py trychange.py].each do |tool|
       system "#{bin}/#{tool} --version"
     end
