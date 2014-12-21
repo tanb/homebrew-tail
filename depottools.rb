@@ -1,7 +1,7 @@
 # Credit to https://github.com/Homebrew/homebrew/pull/17675/files
 require 'formula'
 
-class DepotTools < Formula
+class Depottools < Formula
   homepage 'http://dev.chromium.org/developers/how-tos/depottools'
   url 'https://chromium.googlesource.com/chromium/tools/depot_tools.git',
       :branch => 'master'
