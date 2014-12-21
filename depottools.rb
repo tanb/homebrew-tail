@@ -17,7 +17,7 @@ class Depottools < Formula
     dst.mkpath unless dst.directory?
     mv Dir.glob('*'), dst
         %w[gclient gcl git-cl hammer drover cpplint.py presubmit_support.py
-      trychange.py git-try wtf weekly git-gs zsh-goodies].each do |tool|
+      trychange.py git-try wtf weekly git-gs zsh-goodies ninja].each do |tool|
                 (bin/tool).write <<-EOS.undent
         #!/bin/bash
         TOOL=#{prefix}/tools/#{tool}
