@@ -11,9 +11,6 @@ $ brew tap tanb/tail
 
 ## Formulas
 - [remind-notifier](https://github.com/tanB/remind-notifier)
-- [cider](https://github.com/msanders/cider)
-- [rfc3987](https://github.com/dgerber/rfc3987)
-- [click](http://click.pocoo.org/)
 - [Leanify](https://github.com/JayXon/Leanify)
 
 ## Casks
