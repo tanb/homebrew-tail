@@ -1,4 +1,4 @@
-cask :v1 => 'deploymate' do
+cask 'deploymate' do
   homepage 'http://www.deploymateapp.com'
   url 'https://s3.amazonaws.com/deploymate/download/Deploymate127.zip'
   version '1.2.7'

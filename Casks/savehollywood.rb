@@ -1,4 +1,4 @@
-cask :v1 => 'savehollywood' do
+cask 'savehollywood' do
   version :latest
   sha256 :no_check
 

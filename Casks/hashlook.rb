@@ -1,4 +1,4 @@
-cask :v1 => 'hashlook' do
+cask 'hashlook' do
   homepage 'https://github.com/tanb/HashLook-Preview'
   url 'https://github.com/tanb/HashLook-Preview/releases/download/1.1.0/HashLook-1.1.0.zip'
   version '1.1.0'

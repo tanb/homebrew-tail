@@ -1,4 +1,4 @@
-cask :v1 => 'simpholders2' do
+cask 'simpholders2' do
   homepage 'http://simpholders.com'
   url 'http://simpholders.com/site/assets/files/1098/sp20a-87.zip'
   version '2.0a'
