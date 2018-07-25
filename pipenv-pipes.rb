@@ -6,13 +6,6 @@ class PipenvPipes < Formula
   url "https://files.pythonhosted.org/packages/fd/88/af64f2f49c122357c1c83df1b12b98b0bd40c8da5d74977210e1ffe93e7e/pipenv_pipes-0.6.3.post3.tar.gz"
   sha256 "b1ab97c2484a87839560ce7e43b4b2accc05c6b08b94b1f974c1b72cdd73682c"
 
-  # bottle do
-  #   cellar :any_skip_relocation
-  #   sha256 "60f024907a279b61665ea6c64836beece62a72375cf3d217b8d52d4f67aa1d03" => :high_sierra
-  #   sha256 "0085107a2010e3fce5feb9fcbd8feb555809a68458e9e1abdfc4662154632fff" => :sierra
-  #   sha256 "6816de1c639ea62e6b1a3752373559f427de2f69dab7a2bedf13a6b25d7e7bc9" => :el_capitan
-  # end
-
   depends_on "python"
 
   resource "colorama" do
