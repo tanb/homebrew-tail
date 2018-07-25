@@ -15,10 +15,10 @@ class PipenvPipes < Formula
 
   depends_on "python"
 
-  # resource "certifi" do
-  #   url "https://files.pythonhosted.org/packages/4d/9c/46e950a6f4d6b4be571ddcae21e7bc846fcbb88f1de3eff0f6dd0a6be55d/certifi-2018.4.16.tar.gz"
-  #   sha256 "13e698f54293db9f89122b0581843a782ad0934a4fe0172d2a980ba77fc61bb7"
-  # end
+  resource "colorama" do
+    url "https://files.pythonhosted.org/packages/e6/76/257b53926889e2835355d74fec73d82662100135293e17d382e2b74d1669/colorama-0.3.9.tar.gz"
+    sha256 "48eb22f4f8461b1df5734a074b57042430fb06e1d61bd1e11b078c0fe6d7a1f1"
+  end
 
   def install
     # Using the virtualenv DSL here because the alternative of using
@@ -28,10 +28,10 @@ class PipenvPipes < Formula
     venv.pip_install resources
     venv.pip_install buildpath
 
-    # `pipenv` needs to be able to find `virtualenv` and `pewtwo` on PATH. So we
+    # `pipes` needs to be able to find `colorama` and `pewtwo` on PATH. So we
     # install symlinks for those scripts in `#{libexec}/tools` and create a
     # wrapper script for `pipenv` which adds `#{libexec}/tools` to PATH.
-    (libexec/"tools").install_symlink libexec/"bin/pipes"
+    (libexec/"tools").install_symlink libexec/"bin/colorama", libexec/"bin/pipes"
 
     env = {
       :PATH => "#{libexec}/tools:$PATH",
