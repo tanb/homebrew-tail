@@ -6,12 +6,6 @@ class Mercurial < Formula
   url "https://www.mercurial-scm.org/release/mercurial-5.0.2.tar.gz"
   sha256 "29b850792f1f054cece5b8de8e815dbbe266e1d11814c3755290c0879883c0f8"
 
-  bottle do
-    sha256 "9ecb83b783860c3e3cb985aea46fd2d648ea88822a360b113380a4e3f2b08545" => :mojave
-    sha256 "57c14bc4fd6a199fd6c0844cde445562c7ca5d43981d9dc42806d0820ee63ce1" => :high_sierra
-    sha256 "22bf2310b6eb29240733406921774ad2f6268b5e754e615de022f467784893c6" => :sierra
-  end
-
   depends_on "python@3" # Beta support Python 3
 
   def install
